@@ -1,3 +1,3 @@
 # eydzi
-this is my personal website \n
-welcome!
+this is my personal website 
+# welcome!
