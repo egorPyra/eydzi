@@ -1,0 +1,104 @@
+html{
+  position: relative;
+  min-height: 100%;
+    overflow: auto;
+}
+
+body {
+    font-family: 'GerardDisplay-ExMd';
+    background-color: peachpuff;
+    
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+    overflow: hidden;
+}
+
+.box {
+    background-color:#ce9f75;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.box-a {
+    margin-right: 2vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.photo {
+    width: 100%;
+    margin: -5px;
+    
+}
+
+.content {
+    margin: 0;
+    height: auto;
+    min-height: 30%;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    
+    font-size: 26px;
+    
+    background-color: #ce9f75;
+}
+    
+.content-box {
+    text-align: center;
+}
+.content-box a {
+    text-decoration: none;
+    color: black;
+}
+    
+.content img {
+    width: 25px;
+}
+
+.fot {
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    background-color: #ce9f75;
+}
+
+
+
+
+
+@media (max-width: 750px) {
+    
+    
+    .box {
+        height: 7%;
+        justify-content: space-evenly;
+        
+        
+    }
+
+    .box-a {
+        font-size: 4vw;
+    }
+    
+    .content {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .content-box {
+        margin: 50px;
+        
+    }
+    
