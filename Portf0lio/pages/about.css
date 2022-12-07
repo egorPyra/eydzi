@@ -10,6 +10,7 @@ body {
 }
 
 .box {
+    font-family: 'GerardDisplay-ExMd';
     background-color:#ce9f75;
     height: 10%;
     width: 100%;
