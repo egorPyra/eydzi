@@ -45,5 +45,9 @@ article {
     .box-a {
         font-size: 4vw;
     }
+    article {
+        font-size: 4vw;
+    }
+}
 
 
