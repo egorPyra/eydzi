@@ -34,17 +34,11 @@ article {
 
 
 @media (max-width: 650px) {
-    img {
-        width: 100%;
-        height: ;
-        top: 0%;
-    }
     
     .box {
         height: 7%;
         justify-content: space-evenly;
-        
-        
+       
     }
 
     .box-a {
